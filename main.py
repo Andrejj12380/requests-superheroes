@@ -13,8 +13,8 @@ def intelligence(names):
     for character_name, intellect in intelligence_dict.items():
         if intellect == max_intelligence:
             smartest = character_name
-    return f'{smartest} с интеллектом {max_intelligence}'
+    return print(f'Самый умный - {smartest} с интеллектом {max_intelligence}')
 
 
-print(f"Самый умный - {intelligence(['Hulk', 'Thanos', 'Captain America'])}")
+intelligence(['Hulk', 'Thanos', 'Captain America'])
 
